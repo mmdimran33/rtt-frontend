@@ -1,0 +1,129 @@
+<div class="main">
+    <div nz-row>
+        <div nz-col nzSpan="12">
+            <div class="form-section">
+                <form  [formGroup]="contactusForm" (ngSubmit)="onSubmit()">
+                    <div>
+                        <div>
+                            <select name="" formControlName="enquiryT">
+                                <option value="">Enquiry Type</option>
+                                <option value="Service">Service</option>
+                                <option value="Alliances">Alliances</option>
+                                <option value="Careers">Careers</option>
+                                <option value="Media">Media</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text" formControlName="fname" placeholder="First Name">
+                        </div>
+                        <div>
+                            <input type="text" formControlName="lname" placeholder="Last Name">
+                        </div>
+                        <div>
+                            <input type="text" formControlName="organization" placeholder="Organization">
+                        </div>
+                        <div>
+                            <input type="email" formControlName="email" placeholder="Email Id" >
+                        </div>
+                        <div>
+                            <input type="text" formControlName="jobtitle" placeholder="Job Title (optional)">
+                        </div>
+                        <div>
+                            <input type="text" formControlName="phonenumber" placeholder="Phone Number (optional)">
+                        </div>
+                        <div>
+                            <input type="text" formControlName="location" placeholder="Location (city)" >
+                        </div>
+                        <div>
+                            <select name="" formControlName="selectsite">
+                                <option value="">How did you hear about us?</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Other Social Channels">Other Social Channels</option>
+                                <option value="Email">Email</option>
+                                <option value="Search Engine">Search Engine</option>
+                                <option value="Webinar">Webinar</option>
+                                <option value="Digital Banner">Digital Banner</option>
+                                <option value="Event">Event</option>
+                                <option value="Referral">Referral</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text" formControlName="message" placeholder="Message">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button>SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div nz-col nzSpan="12">
+            <div class="content-section">
+                <div class="content-section-spacer">
+                    <div class="content-section-spacer-inner"></div>
+                </div>
+                <div class="content-section-head-para">
+                    <div class="content-elementor">
+                        <div class="content-section-heading">
+                            <h3>Let’s Connect</h3>
+                        </div>
+                    </div>
+                    <div class="content-section-head-para-spacer-inner"></div>
+                   <div class="content-section-elementor-para">
+                    <div class="content-section-para">
+                        <p>
+                            Thank you for your interest in Root Tronics Technologies Please help us with details
+                            of your enquiry and your co-ordinates. An appropriate person from our
+                            end will respond to you within half day working day.
+                        </p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section2 -->
+    <div class="section2">
+        <div class="section2-element-spacer"></div>
+    </div>
+    <div class="address">
+        <h3>Our Registered Office Location</h3>
+    </div>
+    <div class="section2">
+        <div class="section2-element-spacer-bottom-location"></div>
+    </div>
+    <div class="address-title">
+        <p class="title">Mumbai</p>
+        <div class="address-details">
+            <p>Shop No 6, Kailash park Kailash puram, near Sakinaka Metro Station</p>
+            <p>Gate no 2, Andheri East, Mumbai 400072</p>
+        </div>
+        <div nz-row>
+      <div nz-col nzSpan="18">
+      <div nz-row class="address-contact">
+      <div nz-col nzSpan="10">
+        <h3>URL:</h3>
+        <p>http://www.rttechnologieslive.info</p>
+      </div>
+      <div nz-col nzSpan="8">
+        <h3>Phone No:</h3>
+        <p>8454028829</p>
+      </div>
+      <div nz-col nzSpan="6">
+        <h3>Email:</h3>
+        <p>hr@rttechnologieslive.info</p>
+      </div>
+    </div>
+      </div>
+      <div nz-col nzSpan="6"></div>
+    </div>
+    </div>
+
+</div>
+
+
