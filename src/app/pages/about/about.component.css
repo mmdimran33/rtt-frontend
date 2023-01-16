@@ -36,7 +36,7 @@
     font-weight: bold;
   }
 
-  .image-oppsite ::before{
+  /* .image-oppsite ::before{
     content: '';
     width: 183px;
     height: 18px;
@@ -44,7 +44,7 @@
     opacity: 0.3;
     position: absolute;
     top: 42px;
-}
+} */
 
 .image-oppsite p {
     color: #111111;
@@ -53,7 +53,7 @@
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
-    padding: 5px 40px 10px 0px;
+    /* padding: 5px 40px 10px 0px; */
 }
   
 
@@ -311,4 +311,55 @@
 
 .elementor-heading {
     padding: 10px;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:768px) {
+    .image-oppsite ::before{ 
+        width: 162px;
+    }
+    .image-oppsite h3 {
+        font-size: 40px;
+    }
+
+    .element-service {
+        font-size: 40px;
+    }
+
+    .element-heading h3{
+        font-size: 40px;
+    }
+
+    .background-imageon h3 {
+        font-size: 15px;
+    }
+
+    .background-imageon p {
+        font-size: 12px;
+    }
+
+    .clover-academy h3{
+        font-size: 40px;
+    }
+
+    .elementor-heading h3 {
+        font-size: 40px;
+    }
+
+    .elementor-text-editor {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .image-oppsite ::before{ 
+        width: 151px;
+    }
+
+    .section7-image img {
+        width: 100%;
+    }
 }
