@@ -15,10 +15,22 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { ApplicationServicesComponent } from './application-services/application-services.component';
+import { ArtificialIntelligenceComponent } from './artificial-intelligence/artificial-intelligence.component';
+import { AutomationComponent } from './automation/automation.component';
+import { CloudComponent } from './cloud/cloud.component';
+import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
+import { DigitalCommerceComponent } from './digital-commerce/digital-commerce.component';
+import { FinanceConsultingComponent } from './finance-consulting/finance-consulting.component';
+import { InfrastructureComponent } from './infrastructure/infrastructure.component';
+import { SecurityComponent } from './security/security.component';
+import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
+import { TechnologyConsultingComponent } from './technology-consulting/technology-consulting.component';
+import { TechnologyInnovationComponent } from './technology-innovation/technology-innovation.component';
 
 
 @NgModule({
-  declarations: [AboutComponent, AboutUSComponent, ManagementTeamComponent, CoEComponent, CSRComponent, NewsletterComponent, CustomersComponent, BussinessAlliancesComponent, RootTronicsTechnologyComponent],
+  declarations: [AboutComponent, AboutUSComponent, ManagementTeamComponent, CoEComponent, CSRComponent, NewsletterComponent, CustomersComponent, BussinessAlliancesComponent, RootTronicsTechnologyComponent, ApplicationServicesComponent, ArtificialIntelligenceComponent, AutomationComponent, CloudComponent, DataAnalyticsComponent, DigitalCommerceComponent, FinanceConsultingComponent, InfrastructureComponent, SecurityComponent, SupplyChainFinanceComponent, TechnologyConsultingComponent, TechnologyInnovationComponent],
   imports: [
     CommonModule,
     AboutRoutingModule,

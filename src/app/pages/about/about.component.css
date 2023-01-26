@@ -92,6 +92,20 @@
       color: red;
   }
 
+  .key-services-list {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .key-services-list p {
+    position: absolute;
+    top: 83px;
+    left: 63px;
+    color: #f8f9fb;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+  }
+
 .element-heading {
     padding-top: 70px;
     text-align: center;
@@ -329,28 +343,36 @@
     }
 
     .element-heading h3{
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .background-imageon h3 {
         font-size: 15px;
     }
 
+    
+
     .background-imageon p {
         font-size: 12px;
     }
 
     .clover-academy h3{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .elementor-heading h3 {
-        font-size: 40px;
+        font-size: 24px;
     }
 
     .elementor-text-editor {
         font-size: 35px;
     }
+
+    .key-services-list p {
+        top: 40px;
+        left: 24px;
+        font-size: 12px;
+      }
 }
 
 
@@ -362,4 +384,26 @@
     .section7-image img {
         width: 100%;
     }
+
+    .read-buttom {
+        margin-bottom: 155px;
+    }
+
+    .elementor-text-editor {
+        font-size: 23px;
+    }
+
+    .elementor-text-explore {
+        font-size: 15px;
+    }
+
+    .section7-elementor-spacer-inner {
+        height: 0px;
+    }
+
+    .key-services-list p {
+        top: 62px;
+        left: 37px;
+        font-size: 16px;
+      }
 }

@@ -286,3 +286,19 @@
     font-weight: normal;
     margin-bottom: 20px;
 }
+
+
+/* Media Query */
+@media screen and (max-width:480px) {
+    .content h3 {
+        font-size: 40px;
+     }
+
+     .section2-image {
+        top: 28px;
+    }
+
+     .section6-content h3{
+        font-size: 30px;
+    }
+ }
