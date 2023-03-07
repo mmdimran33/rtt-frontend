@@ -1,0 +1,121 @@
+
+.future-ready h1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.future-ready p {
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.Innovation-led {
+    background-color: rgb(242,242,242);
+    padding: 40px 15px 15px 15px;
+}
+
+.Innovation h1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.Innovation-para {
+    padding-right: 15px;
+}
+
+.Innovation-para p {
+    font-family: "Poppins", Sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.Innovation-para .second {
+    margin-top: 30px;
+}
+
+.Innovation-para-second {
+    padding-left: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.Innovation-para-single {
+    padding: 40px;
+}
+
+.end-to-end-head {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.end-to-end-head h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.end-to-end-head p {
+    font-family: "Poppins", Sans-serif;
+    font-weight: normal;
+}
+
+.services-box-agile-application {
+    background-color: #f2f2f2;
+    /* margin-bottom: 30px; */
+    /* padding: 30px 10px 10px 10px; */
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 3.8rem 2rem 2rem;
+    margin: 1.5rem 0.5rem 0.5rem 0;
+    box-shadow: 0.05rem 0.05rem #a7a7a7, 
+    0.1rem 0.1rem #a7a7a7, 
+    0.15rem 0.15rem #a7a7a7, 
+    0.2rem 0.2rem #a7a7a7, 
+    0.25rem 0.25rem #a7a7a7, 
+    0.3rem 0.3rem #a7a7a7, 
+    0.35rem 0.35rem #a7a7a7, 
+    0.4rem 0.4rem #a7a7a7, 
+    0.45rem 0.45rem #a7a7a7, 
+    0.5rem 0.5rem #a7a7a7;
+}
+
+.services-box-agile-application h3 {
+    font-family: "Poppins", Sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.services-box-agile-application p {
+    font-family: "Poppins", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+
+/* Media Query */
+@media screen and (max-width:768px) {
+    .future-ready h1 {
+        font-size: 50px;
+    }
+
+ }
+
+
+@media screen and (max-width:480px) {
+    .future-ready h1 {
+        font-size: 30px;
+    }
+
+    .Innovation h1 {
+        font-size: 30px;
+    }
+
+    .end-to-end-head h2 {
+        font-size: 30px;
+    }
+    
+ }
+
