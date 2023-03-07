@@ -8,6 +8,7 @@
   }
 
 .slide img {
+    height: 100%;
     width: 100%;
     outline: none;
     background: #364d79;
